@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli("localhost", "root", "", "carshop");
+$conn = new mysqli("localhost", "root", "", "Week4db");
 
 $id = $_POST['id'];
 $car_name = $_POST['car_name'];
